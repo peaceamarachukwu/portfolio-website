@@ -1,28 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academic Planner</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header>
-    <h1>Academic Planner</h1>
-    <p>Organize your study tasks</p>
-</header>
-
 <section>
-    <h2>My Tasks</h2>
+    <h2>Academic Planner</h2>
 
-    <input type="text" id="taskInput" placeholder="Enter a task">
-    <button onclick="addTask()">Add Task</button>
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Course</th>
+            <th>Task</th>
+            <th>Deadline</th>
+            <th>Status</th>
+        </tr>
 
-    <ul id="taskList"></ul>
+        <tr>
+            <td>COS106</td>
+            <td>Portfolio Website</td>
+            <td>July 2026</td>
+            <td>In Progress</td>
+        </tr>
+
+        <tr>
+            <td>CSC101</td>
+            <td>Assignment</td>
+            <td>August 2026</td>
+            <td>Pending</td>
+        </tr>
+
+        <tr>
+            <td>GST101</td>
+            <td>Quiz</td>
+            <td>August 2026</td>
+            <td>Completed</td>
+        </tr>
+    </table>
 </section>
-
-<script src="script.js"></script>
-
-</body>
-</html>
