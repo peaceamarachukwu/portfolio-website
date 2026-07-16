@@ -9,6 +9,7 @@ header {
     color: white;
     text-align: center;
     padding: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 section {
@@ -17,10 +18,17 @@ section {
     margin: 30px auto;
     padding: 20px;
     border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
     color: #003366;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
 }
 .profile-pic {
     width: 220px;
